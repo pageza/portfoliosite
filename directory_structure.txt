@@ -1,0 +1,52 @@
+.
+├── client
+│   ├── angular.json
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md
+│   ├── src
+│   │   ├── app
+│   │   │   ├── app.component.css
+│   │   │   ├── app.component.html
+│   │   │   ├── app.component.spec.ts
+│   │   │   ├── app.component.ts
+│   │   │   ├── app.module.ts
+│   │   │   ├── app-routing.module.ts
+│   │   │   ├── components
+│   │   │   │   ├── blog
+│   │   │   │   │   └── list-posts
+│   │   │   │   │       ├── list-posts.component.css
+│   │   │   │   │       ├── list-posts.component.html
+│   │   │   │   │       ├── list-posts.component.spec.ts
+│   │   │   │   │       └── list-posts.component.ts
+│   │   │   │   ├── main
+│   │   │   │   │   └── header
+│   │   │   │   │       ├── header.component.css
+│   │   │   │   │       ├── header.component.html
+│   │   │   │   │       ├── header.component.spec.ts
+│   │   │   │   │       └── header.component.ts
+│   │   │   │   └── portfolio
+│   │   │   └── services
+│   │   │       ├── posts.service.spec.ts
+│   │   │       └── posts.service.ts
+│   │   ├── assets
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── main.ts
+│   │   └── styles.css
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   └── tsconfig.spec.json
+├── directory_structure.txt
+└── server
+    ├── config
+    ├── controllers
+    ├── models
+    │   └── Post.js
+    ├── package.json
+    ├── package-lock.json
+    ├── routes
+    │   └── posts.js
+    └── server.js
+
+16 directories, 33 files

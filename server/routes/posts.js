@@ -11,6 +11,14 @@ router.get('/', (req, res) => {
         .sort({ date: -1 })
         .then(posts => res.json(posts))
 });
+// @route GET api/posts/:id
+// @desc Get A Post
+router.get('/:id', (req, res) => {
+    console.log(req.params.id);
+    Post.findById(req.params.id)
+        .then(post => res.json(post))
+        .catch(err => res.status(500).json({ success: false }))
+});
 // @route POST api/posts
 // @desc Create A Post
 router.post('/', (req, res) => {
